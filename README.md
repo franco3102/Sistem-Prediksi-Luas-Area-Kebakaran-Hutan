@@ -162,12 +162,13 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 5. Install Library Joblib
+### 5. Install Library Joblib dan Scikit-learn
 
 Apabila library **joblib** belum terinstal, jalankan perintah berikut:
 
 ```bash
 pip install joblib
+pip install joblib scikit-learn
 ```
 
 ### 6. Jalankan Aplikasi
