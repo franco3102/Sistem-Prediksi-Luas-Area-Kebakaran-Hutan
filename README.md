@@ -126,7 +126,7 @@ project/
 
 ---
 
-## 🚀 Cara Menjalankan
+## 🚀 Cara Menjalankan Aplikasi
 
 ### 1. Clone Repository
 
@@ -140,20 +140,41 @@ git clone https://github.com/username/nama-repository.git
 cd nama-repository
 ```
 
-### 3. Install Dependencies
+### 3. Buat dan Aktifkan Virtual Environment
+
+**Windows**
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+**macOS / Linux**
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### 4. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Jalankan Aplikasi
+### 5. Jalankan Aplikasi
 
 ```bash
 streamlit run app.py
 ```
 
----
+Aplikasi akan berjalan dan dapat diakses melalui browser pada alamat berikut:
 
+```text
+http://localhost:8501
+```
+
+---
 ## 🖼️ Tampilan Aplikasi
 
 ### Halaman Utama
