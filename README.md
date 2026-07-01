@@ -162,7 +162,15 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 5. Jalankan Aplikasi
+### 5. Install Library Joblib
+
+Apabila library **joblib** belum terinstal, jalankan perintah berikut:
+
+```bash
+pip install joblib
+```
+
+### 6. Jalankan Aplikasi
 
 ```bash
 streamlit run app.py
@@ -173,8 +181,6 @@ Aplikasi akan berjalan dan dapat diakses melalui browser pada alamat berikut:
 ```text
 http://localhost:8501
 ```
-
----
 ## 🖼️ Tampilan Aplikasi
 
 ### Halaman Utama
